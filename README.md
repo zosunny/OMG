@@ -6,7 +6,7 @@
 
 
 ## 👫 Members
-|<img src="https://user-images.githubusercontent.com/96401350/229277093-a968a9c7-19ca-4629-b19b-a8253739a124.jpeg" width="35%" />|<img src="https://user-images.githubusercontent.com/96401350/229277315-c660bc89-80f7-4576-8269-60cfe8cef54b.jpeg" width="35%" />|
+|<img src="https://user-images.githubusercontent.com/96401350/229277093-a968a9c7-19ca-4629-b19b-a8253739a124.jpeg" width="35%" />|<img src="https://user-images.githubusercontent.com/96401350/229572946-b001bd4a-039b-4506-a7fb-6252b415761c.jpeg" width="35%" />|
 |:---:|:---:|
 |Front End|Back End|
 |최한윤([@chlgksdbs](https://github.com/chlgksdbs))|조해린([@zosunny](https://github.com/zosunny))|
