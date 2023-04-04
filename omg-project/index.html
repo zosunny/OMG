@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Header Start-->
+    <!--Head Start-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
         <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
         <!--Favicon-->
         <link href="./assets/img/favicon.png" rel="shortcut icon">
-    <!--Header End-->
+    <!--Head End-->
 </head>
 <body>
     <!--Nav Start-->
@@ -25,16 +25,32 @@
                 <div class="row">
                     <div class="col">
                         <a class="navbar-brand" href="#">
-                            <img src="assets/img/logo.png" width="200px" />
+                            <img src="./assets/img/logo.png" width="200px" />
                         </a>
                     </div>
                     <div class="col d-flex justify-content-end" style="margin: auto">
-                        <!--Chatting Icon-->
-                        <i class="bi bi-chat fs-3 ms-2 me-2"></i>
-                        <!--Alarm Message Icon-->
-                        <i class="bi bi-bell fs-3 ms-2 me-2"></i>
-                        <!--MyPage Icon-->
-                        <i class="bi bi-person-circle fs-3 ms-2 me-2"></i>
+                        <ul>
+                            <!--Login Button-->
+                            <a href="#">
+                                <button class="logBtn ms-1 me-1" type="button">로그인</button>
+                            </a>
+                            <!--Logout Button-->
+                            <a href="#">
+                                <button class="logBtn ms-1 me-1" type="button">로그아웃</button>
+                            </a>
+                            <!--Chatting Icon-->
+                            <a href="#">
+                                <i class="bi bi-chat fs-3 ms-1 me-1"></i>
+                            </a>
+                            <!--Alarm Message Icon-->
+                            <a href="#">
+                                <i class="bi bi-bell fs-3 ms-1 me-1"></i>
+                            </a>
+                            <!--MyPage Icon-->
+                            <a href="#">
+                                <i class="bi bi-person-circle fs-3 ms-1 me-1"></i>
+                            </a>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -63,7 +79,7 @@
     <!--중앙 Content Start-->
     <div class="container" style="text-align: center; margin: 125px auto;">
         <h2>무엇을 찾고 계신가요?</h2>
-        <form action="" class="d-flex justify-content-center">
+        <form action="#" method="" class="d-flex justify-content-center">
             <input class="ps-3 me-2" type="text" placeholder="검색어를 입력하시오." style="width:275px; height:40px; border-radius: 10px;"/>
             <button class="btn btn-secondary" type="submit">검색</button>
         </form>
