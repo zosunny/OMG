@@ -1,9 +1,18 @@
+/*noonnu : IBM Plex Sans*/
 @font-face {
     font-family: 'IBMPlexSansKR-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+/*noonnu : LINE Seed*/
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
 
 * {
     margin: 0px;
@@ -16,6 +25,14 @@ a {
     text-decoration: none;
 }
 
+input {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
 .logBtn {
     padding: 5px;
     border: 1px solid #1dd1a1;
@@ -23,6 +40,7 @@ a {
     font-family: 'IBMPlexSansKR-Regular';
     background-color: #FFFFFF;
     color: #1dd1a1;
+    box-shadow: 1px 1px lightgrey;
 }
 
 .logBtn:hover {
