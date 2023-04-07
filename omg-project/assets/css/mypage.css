@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.nav_link {
+    display: flex;
+    margin-top: 2px;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgb(110, 110, 110) !important;
+}
+
+.user_account {
+    text-align: center;
+}
+
+.user_account_title {
+    border-bottom: 3px solid #000000;
+}
+
+.user_title {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'LINESeedKR-Bd';
+}
+
+.user_info {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+tr, td {
+    height: auto;
+    padding: 15px 0;
+    border-top: 1px solid #f1f1f1;
+}
+
+.image_upload {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#upload_input {
+    visibility: hidden;
+}
+
+.file_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 0.8em;
+
+    cursor: pointer;
+}
+
+.myImg {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    position: relative;
+}
