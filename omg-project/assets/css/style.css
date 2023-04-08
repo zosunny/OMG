@@ -20,6 +20,22 @@
     list-style: none;
 }
 
+table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border: 1px;
+}
+
 a {
     color:black;
     text-decoration: none;
