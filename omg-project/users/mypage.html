@@ -19,6 +19,7 @@
     <!--Head End-->
 </head>
 <body>
+    <div class="container mypage">
     <!--상단 Nav Start-->
         <!-- div class="container" 			: 양 옆에 여백 -->
         <!-- div class="container-fluid" 	: 양 옆에 여백없이 가득 채움 -->
@@ -56,165 +57,160 @@
                     </div>
                 </div>
             </div>
-        <nav class="navbar navbar-expand-lg" style="background-color: #1dd1a1; padding: auto">
-            <div class="container">
-                <div class="navbar-collapse" id="navbarSupportedContent" style="display: flex;">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-three-dots fs-3"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end" style="position: absolute;">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <nav class="navbar navbar-expand-lg" style="background-color: #1dd1a1; padding: auto">
+                <div class="container">
+                    <div class="navbar-collapse" id="navbarSupportedContent" style="display: flex;">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-three-dots fs-3"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" style="position: absolute;">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--상단 Nav End-->
+        <div class="container content">
+            <div class="container" style="display: flex; margin: 0 auto; padding: 0 10px; justify-content: center;">
+            <!--왼쪽 Content Start-->
+                <div class="container" style="width: 200px; margin: 50px 40px 0 0; padding: 25px; float: left; border: 1px solid #d7e2eb; border-radius: 12px;">
+                    <ul class="nav flex-column">
+                        <li class="nav-item" style="margin-bottom: 30px">
+                            <h3 style="padding: 13px 0px 2px; font-size: 24px; font-weight: normal; line-height: 40px;">나의 정보</h3>
+                            <ul>
+                                <a class="nav_link" href="#" style="color: black; font-size: large;">계정 관리</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <h3 style="padding: 13px 0px 2px; font-size: 24px; font-weight: normal; line-height: 40px;">나의 활동</h3>
+                            <ul>
+                                <a class="nav_link" href="#" style="color: black; font-size: large;">주인을 찾아요</a>
+                                <a class="nav_link" href="#" style="color: black; font-size: large;">물건을 찾아요</a>
                             </ul>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <!--상단 Nav End-->
-    <div class="container" style="width: auto; box-sizing: border-box; margin: 0 auto; padding: 0 40px;">
-        <div class="container" style="display: flex; margin: 0 auto; padding: 0 10px; justify-content: center;">
-    <!--왼쪽 Content Start-->
-            <div class="container" style="width: 200px; margin: 50px 40px 0 0; padding: 25px; float: left; border: 1px solid #d7e2eb; border-radius: 12px;">
-                <ul class="nav flex-column">
-                    <li class="nav-item" style="margin-bottom: 30px">
-                        <h3 style="padding: 13px 0px 2px; font-size: 24px; font-weight: normal; line-height: 40px;">회원 정보</h3>
-                        <ul>
-                            <a class="nav_link" href="#" style="color: black; font-size: large;">계정 관리</a>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <h3 style="padding: 13px 0px 2px; font-size: 24px; font-weight: normal; line-height: 40px;">게시글 관리</h3>
-                        <ul>
-                            <a class="nav_link" href="#" style="color: black; font-size: large;">주인을 찾아요</a>
-                            <a class="nav_link" href="#" style="color: black; font-size: large;">물건을 찾아요</a>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-    <!--왼쪽 Content End-->
-    <!--중앙 Content Start-->
-            <div class="container user_account" style="width: calc(100% - 210px); margin-top: 50px; padding: 0; float: right;">
-                <header class="user_account_title">
-                    <h1 class="user_title">기본 회원 정보</h1>
-                </header>
-                <table class="user_info">
-                    <colgroup>
-                        <col style="width: 190px">
-                        <col style="width: *">
-                        <col style="width: 50%">
-                    </colgroup>
-                    <tr>
-                        <th>
-                            사진
-                        </th>
-                        <td>
-                            <div class="myImg" id="myImg">
-                            </div>
-                        </td>
-                        <td>
-                            <div class="image_upload">
-                                <div class="file_container">
-                                    <div class="button_container">
-                                        <div class="submit_button" id="submit_button">
-                                            완료
-                                        </div>
-                                    </div>
+            <!--왼쪽 Content End-->
+            <!--중앙 Content Start-->
+                <div class="container user_account" style="width: calc(100% - 210px); margin-top: 50px; padding: 0; float: right;">
+                    <header class="user_account_title">
+                        <h1 class="user_title">기본 회원 정보</h1>
+                    </header>
+                    <table class="user_info">
+                        <colgroup>
+                            <col style="width: 190px">
+                            <col style="width: *">
+                            <col style="width: 50%">
+                        </colgroup>
+                        <tr>
+                            <th>
+                                사진
+                            </th>
+                            <td>
+                                <div class="myImg" id="myImg">
                                 </div>
+                            </td>
+                            <td>
                                 <form enctype="multipart/form-data" method="POST">
                                     <div class="button">
-                                        <label for="upload_input">
+                                        <label for="upload_input" class="user_modify_btn">
                                             사진 변경
                                         </label>
                                     </div>
                                     <input type="file" id="upload_input" accept="image/*" onchange="loadFile(this)" />
                                 </form>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            아이디
-                        </th>
-                        <td>
-                            <strong>chlgksdbs</strong>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            비밀번호
-                        </th>
-                        <td>
-                            <strong>******</strong>
-                        </td>
-                        <td>
-                            <button>비밀번호 변경</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            이름
-                        </th>
-                        <td>
-                            <strong>최한윤</strong>
-                        </td>
-                        <td>
-                            <button>이름 수정</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            닉네임
-                        </th>
-                        <td>
-                            <strong>조해린</strong>
-                        </td>
-                        <td>
-                            <button>닉네임 변경</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            이메일
-                        </th>
-                        <td>
-                            <strong>chlgksdbs98@naver.com</strong>
-                        </td>
-                        <td>
-                            <button>이메일 변경</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            주소
-                        </th>
-                        <td>
-                            <strong>서울특별시 은평구</strong>
-                        </td>
-                        <td>
-                            <button>주소 변경</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            휴대전화
-                        </th>
-                        <td>
-                            <strong>010-1234-5678</strong>
-                        </td>
-                        <td>
-                            <button>휴대전화 변경</button>
-                        </td>
-                    </tr>
-                </table>
+                                <button class="user_modify_btn" id="submit_button">
+                                    완료
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                아이디
+                            </th>
+                            <td>
+                                <strong>chlgksdbs</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                비밀번호
+                            </th>
+                            <td>
+                                <strong>******</strong>
+                            </td>
+                            <td>
+                                <button class="user_modify_btn">비밀번호 변경</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                이름
+                            </th>
+                            <td>
+                                <strong>최한윤</strong>
+                            </td>
+                            <td>
+                                <button class="user_modify_btn">이름 수정</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                닉네임
+                            </th>
+                            <td>
+                                <strong>조해린</strong>
+                            </td>
+                            <td>
+                                <button class="user_modify_btn">닉네임 변경</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                이메일
+                            </th>
+                            <td>
+                                <strong>chlgksdbs98@naver.com</strong>
+                            </td>
+                            <td>
+                                <button class="user_modify_btn">이메일 변경</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                주소
+                            </th>
+                            <td>
+                                <strong>서울특별시 은평구</strong>
+                            </td>
+                            <td>
+                                <button class="user_modify_btn">주소 변경</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                휴대전화
+                            </th>
+                            <td>
+                                <strong>010-1234-5678</strong>
+                            </td>
+                            <td>
+                                <button class="user_modify_btn">휴대전화 변경</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            <!--중앙 Content End-->
             </div>
-    <!--중앙 Content End-->
         </div>
     </div>
     <!--하단 Footer start-->

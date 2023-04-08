@@ -8,6 +8,23 @@ body {
     margin: 0;
 }
 
+.container.mypage {
+    width: auto;
+    min-width: 1190px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.container.content {
+    width: auto;
+    min-width: 1190px;
+    max-width: 1560px;
+    padding: 0px 40px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
 .nav_link {
     display: flex;
     margin-top: 2px;
@@ -62,28 +79,7 @@ label {
 }
 
 #upload_input {
-    visibility: hidden;
-}
-
-.file_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button_container {
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    background-color: black;
-    color: white;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 0.8em;
-
-    cursor: pointer;
+    display: none;
 }
 
 .myImg {
@@ -98,4 +94,16 @@ label {
 
 .img {
     position: relative;
+}
+
+.user_modify_btn {
+    min-width: 100px;
+    margin: 3px 0;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.user_modify_btn:hover {
+    border-color: black;
 }
