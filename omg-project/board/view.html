@@ -16,6 +16,8 @@
     <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
     <!--List CSS-->
     <link href="../assets/css/list.css" rel="stylesheet" type="text/css">
+    <!--View CSS-->
+    <link href="../assets/css/view.css" rel="stylesheet" type="text/css">
     <!--Head End-->
 </head>
 <body>
@@ -81,106 +83,45 @@
     <!--중앙 Content Start-->
     <div class="container content">
         <div class="row">
-            <!--게시판 메뉴 바-->
+            <!--글 제목-->
             <div class="col-md-12">
-                <ul class="nav nav-pills">
-                    <li>
-                        <a href="#">전체</a>
-                    </li>
-                    <li>
-                        <a href="#">공지사항</a>
-                    </li>
-                    <li>
-                        <a href="#">HOT</a>
-                    </li>
-                    <li>
-                        <a href="#">주인을 찾아요</a>
-                    </li>
-                    <li>
-                        <a href="#">물건을 찾아요</a>
-                    </li>
-                </ul>
-            </div>
-            <!--게시판 목록-->
-            <div class="col-md-12">
-                <div class="table-list">
-                    <table class="table table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <th style="width: 40%;">제목</th>
-                                <th style="width: 15%;">작성자</th>
-                                <th style="width: 15%;">지역</th>
-                                <th style="width: 10%;">댓글</th>
-                                <th style="width: 10%;">추천수</th>
-                                <th style="width: 10%;">작성일</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="./view.html">핸드폰 찾습니다..ㅠㅠ</a></td>
-                                <td>최모씨</td>
-                                <td>대전 유성구</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>2023-04-09</td>
-                            </tr>
-                            <tr>
-                                <td>지갑 좀 찾아주이소...</td>
-                                <td>조모씨</td>
-                                <td>부산 해운대구</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>2023-04-09</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="page-header">
+                    <h3>핸드폰 찾습니다..ㅠㅠ</h3>
                 </div>
             </div>
-            <!--게시판 페이지 이동-->
+            <!--글 내용-->
             <div class="col-md-12">
-                <div class="text-page-center">
-                    <ul class="pagination">
-                        <li>
-                            <a href="#">처음</a>
-                        </li>
-                        <li>
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#">5</a>
-                        </li>
-                        <li>
-                            <a href="#">마지막</a>
-                        </li>
-                    </ul>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            최모씨
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="content post">
+                            대전 유성구에 위치한 삼성 화재 연수원에서 핸드폰을 잃어버렸습니다.. IPhone 11 기종을 습득하신 분은 댓글 부탁드립니다!
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!--게시판 검색 바-->
+            <!--댓글-->
             <div class="col-md-12">
-                <div class="text-page-center">
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <select class="form-select" name="search_scope">
-                                <option value="all">전체</option>
-                                <option value="subject">제목</option>
-                                <option value="writer">작성자</option>
-                                <option value="region">지역</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="search_term">
-                        </div>
-                        <button type="submit" class="btn-search">검색</button>
-                    </form>
+                <div class="text-center">
+                    <a href="./list.html">
+                        <button type="button" class="btn btn-primary btn-lg">
+                            목록
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button type="button" class="btn btn-primary btn-lg">
+                            수정
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button type="button" class="btn btn-danger btn-lg">
+                            삭제
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
